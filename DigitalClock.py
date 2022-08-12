@@ -14,7 +14,7 @@ def clock():
 
     clock_label .after(1000, clock)
 
-clock_label = Label(main, font = ('sans', 80), background = 'black', foreground = 'white')
+clock_label = Label(main, font = ('sans', 80), background = 'blue', foreground = 'white')
 
 clock_label.pack(anchor = 'center')
 
