@@ -5,7 +5,7 @@ from time import strftime
 
 main = Tk()
 
-main.title('The Digital clock in Python')
+main.title('Digital clock in Python')
 
 def clock():
     tick = strftime('%H:%M:%S %p')
