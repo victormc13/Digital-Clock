@@ -5,16 +5,16 @@ from time import strftime
 
 main = Tk()
 
-main.title('Digital clock in Python')
+main.title('Digital clock in Python. by Victor')
 
 def clock():
-    tick = strftime('%H:%M:%S %p')
+    tick = strftime('%H:%M:%S %p  %a')
 
     clock_label .config(text = tick)
 
     clock_label .after(1000, clock)
 
-clock_label = Label(main, font = ('sans', 80), background = 'blue', foreground = 'white')
+clock_label = Label(main, font = ('arial', 80), background = 'black', foreground = 'blue')
 
 clock_label.pack(anchor = 'center')
 
